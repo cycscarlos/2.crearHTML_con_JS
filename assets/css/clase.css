@@ -1,13 +1,18 @@
 /*: Estilos de la clase de Javascript */
-
+.botonBx {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 button {
-  margin: 20px 10px;
-  padding: 5px;
+  margin: 3.75rem 0.625rem;
+  padding: 0.31rem;
   outline: none;
   cursor: pointer;
-  border-radius: 5px;
-  width: 80px;
-  min-height: 50px;
+  border-radius: 0.31rem;
+  width: 5rem;
+  min-height: 3.125rem;
   color: white;
 }
 button:hover {
@@ -26,6 +31,22 @@ button:hover {
   background: darkcyan;
   border: 1px solid darkcyan;
 }
+.btn4 {
+  background: burlywood;
+  border: 1px solid burlywood;
+}
+.box {
+  /* margin: 3.125rem auto;
+  padding: 1.56rem; */
+  width: 60%;
+  min-height: 3.125rem;
+  color: white;
+  border-radius: 0.31rem;
+  border: 1px solid white;
+}
+.box button {
+  color: black;
+}
 #imagen {
   margin: auto;
   width: 250px;
@@ -37,3 +58,4 @@ button:hover {
   box-sizing: border-box;
   padding: 30px;
 }
+
