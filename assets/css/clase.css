@@ -36,8 +36,6 @@ button:hover {
   border: 1px solid burlywood;
 }
 .box {
-  /* margin: 3.125rem auto;
-  padding: 1.56rem; */
   width: 60%;
   min-height: 3.125rem;
   color: white;
@@ -58,4 +56,3 @@ button:hover {
   box-sizing: border-box;
   padding: 30px;
 }
-
